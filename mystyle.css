@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+body{ background-color: black;
+    position: absolute;
+    width: 180%;
+    height: 180%;
+    font-family: 'Goblin One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 120px;
+    color: #4C894B;
+}
+
+
+#scroll-container {
+   
+    -moz-transform: translateX(150%);
+    -webkit-transform: translateX(105%);
+    transform: translateX(-100%);
+  
+  }
+  #scroll-text {
+    -moz-transform: translateX(150%);
+    -webkit-transform: translateX(105%);
+    transform: translateX(150%);
+    transform: translate(-300%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 35s linear infinite;
+    -webkit-animation: my-animation 45s linear infinite;
+    animation: my-animation 10s linear infinite;
+    
+  }
+  #one{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 30s linear infinite;
+   
+  }
+
+  #two{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: rgb(6, 185, 53);
+    font-size: 100%;
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 20s linear infinite;
+
+  }
+  #three{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 40s linear infinite;
+
+  }
+  #four{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+
+  }
+  #five{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 30s linear infinite;
+
+  }
+  #six{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 60s linear infinite;
+
+  }
+  #seven{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 20s linear infinite;
+
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px rgb(0, 255, 38), 0 0 30px #e60073, 0 0 40px #00ff51, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); 
+       }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); 
+      }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      ;
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+     ;
+    }
+}
+  
+.link
+{
+    text-decoration: none;
+    color: rgb(174, 0, 255);
+}
+.link:hover {
+    color: white;
+    cursor: pointer;
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+

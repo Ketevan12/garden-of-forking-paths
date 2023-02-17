@@ -1,0 +1,127 @@
+
+@import url(<link rel="preconnect" href='https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url(<link rel="preconnect" href='https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+body {
+  text-align:center;
+  background:black;
+  color:rgb(255, 0, 0);
+  font-family: 'Tinos', serif;
+  font-weight:300;
+  font-size:30px;
+  padding-top:50vh;
+  height:100vh;
+  viewport-fit:initial;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 2000;
+  -webkit-transform: translate3d(0,0,0);
+  width: 200px;
+  padding-left: 500px;
+  height:10vh;
+}
+
+div {
+    width: 200px;
+  display:inline block;
+  white-space:nowrap;
+}
+div.hover{
+    color: blue;
+}
+div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 20s infinite;
+  width: 1000px;
+
+}
+
+div:last-of-type {
+ 
+  animation: reveal 7s infinite;
+  width: 100px;
+}
+
+
+div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+  width: 10px;
+  width: 100px;
+}
+.first{padding-left: 150px;
+    padding-top: 100px;
+
+}
+.third{
+    margin-top: 30px;
+    text-align:center;
+    background:black;
+    color:rgb(255, 0, 0);
+    font-family: 'Tinos', serif;
+    font-weight:300;
+    font-size: 190px;
+    height:10vh;
+    width: 100px;
+
+}
+.one{
+  
+    position: 20px;
+    width: 80%;
+    height: 20%;
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 200px;
+    line-height: 25px;
+    color: rgb(97, 0, 0);
+    margin-left: -500px;
+    margin-top: -420px;
+}
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-2000px; }
+    20% { margin-left:-500px; }
+    30%{rotate: 180px;}
+    35% { margin-left:20px; }
+    100% { margin-left:60px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:10px;}
+    20% {opacity:1;width:50px;}
+    30% {width:205px;}
+    80% {opacity:10;}
+    100% {opacity:0;width:355px;}
+}
+
+#scroll-container {
+    justify-content: center;
+    align-items: center;
+    align-self:center;
+    -moz-transform: translateX(150%);
+    -webkit-transform: translateX(105%);
+    transform: translateX(-100%);
+  
+  }
+  #scroll-text {
+    -moz-transform: translateX(150%);
+    -webkit-transform: translateX(105%);
+    transform: translateX(150%);
+    transform: translate(-300%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 35s linear infinite;
+    -webkit-animation: my-animation 45s linear infinite;
+    animation: my-animation 10s linear infinite;
+    
+  }
+
+}
+  

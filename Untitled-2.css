@@ -31,7 +31,7 @@ div:first-of-type {    /* For increasing performance
                        ID/Class should've been used. 
                        For a small demo 
                        it's okaish for now */
-  animation: showup 20s infinite;
+  animation: showup 30s infinite;
   width: 1000px;
 
 }
@@ -39,12 +39,12 @@ div:first-of-type {    /* For increasing performance
 div:last-of-type {
  
   animation: reveal 7s infinite;
-  width: 100px;
+  width: 80px;
 }
 
 
 div:last-of-type span {
-  margin-left:-355px;
+  margin-left:-35px;
   animation: slidein 7s infinite;
   width: 10px;
   width: 100px;
@@ -54,14 +54,15 @@ div:last-of-type span {
 
 }
 .third{
-    margin-top: 30px;
+    margin-top: -150px;
+    margin-left: 660px;
     text-align:center;
     background:black;
     color:rgb(255, 0, 0);
     font-family: 'Tinos', serif;
     font-weight:300;
     font-size: 190px;
-    height:10vh;
+    height:15vh;
     width: 100px;
 
 }
@@ -87,11 +88,9 @@ div:last-of-type span {
 }
 
 @keyframes slidein {
-    0% { margin-left:-2000px; }
-    20% { margin-left:-500px; }
-    30%{rotate: 180px;}
-    35% { margin-left:20px; }
-    100% { margin-left:60px; }
+    0% { margin-left:-3000px; }
+    20% { margin-left: -240px; }
+    100% { margin-left:-300px; }
 }
 
 @keyframes reveal {

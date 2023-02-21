@@ -4,13 +4,27 @@
 body{
   height: 100%;
   font-weight: 100;
+  color: #FDB731;
+  font-size: 100px;
+  
 }
 
+
 body{
+    color: #FDB731;
   background: rgb(0, 0, 0);
-  font-family: Tinos;
-  viewport-fit: auto;
+  font-family: 'Tinos', serif;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 25px;
+  font-size: 100%;
+  color: rgb(212, 255, 0);
+  viewport-fit: auto;  
+  font-weight: 10;
+  color: #FDB731;
+  font-size: 100px;
 }
+
 
 svg {
     font: 5rem 'Tinos';
@@ -23,55 +37,56 @@ svg {
 .text-copy {
     fill: none;
     inset-block: initial;
-    stroke: rgb(0, 255, 68);
     stroke-dasharray: 10% 29%;
-    stroke-width: 2px;
+    stroke-width: 1px;
+    filter: blur(15%);
     stroke-dashoffset: 10%;
     animation: stroke-offset 10s infinite linear;
     display: block;
     overflow: auto;
     viewport-fit: auto;
-    text-size-adjust: -10%;
+    text-size-adjust: -11%;
     margin: 1px;
 }
-{ font-size: 16px; }
 
-@middle (max-width: 550px) {
-  text { font-size: 1em; }
-}
-
-@middle (min-width: 551px) {
-  text { font-size: 1rem; }
-}
 
 .text-copy:nth-child(1){
-  stroke: #4D163D;
-  animation-delay: -10;
+  stroke: #3b3021;
+  animation-delay: -100s;
 }
 
 .text-copy:nth-child(2){
-  stroke: #840037;
-  animation-delay: -20s;
+  stroke: #1e1f31;
+  animation-delay: -50s;
 }
 
 .text-copy:nth-child(3){
-  stroke: #BD0034;
-  animation-delay: -3s;
+  stroke: #401f29;
+  animation-delay: -60s;
 }
 
 .text-copy:nth-child(4){
-  stroke: #BD0034;
-  animation-delay: -4s;
+  stroke: #4e3726;
+  animation-delay: -70s;
 }
 
 .text-copy:nth-child(5){
-  stroke: #FDB731;
-  animation-delay: -5s;
+  stroke: #53462d;
+  animation-delay: -80s;
 }
 
 @keyframes stroke-offset{
-  100% {stroke-dashoffset: -35%;}
+  100% {stroke-dashoffset: -15%;}
 }
         
-      
-
+.title { 
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 200px;
+    line-height: 25px;
+    color: rgb(105, 58, 28);
+    text-align: left;
+    margin-top: 60pt;
+ 
+}    

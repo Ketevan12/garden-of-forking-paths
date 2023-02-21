@@ -1,0 +1,77 @@
+9.css
+@import url(https://fonts.googleapis.com/css2?family=Tinos&display=swap);
+
+body{
+  height: 100%;
+  font-weight: 100;
+}
+
+body{
+  background: rgb(0, 0, 0);
+  font-family: Tinos;
+  viewport-fit: auto;
+}
+
+svg {
+    font: 5rem 'Tinos';
+    width: 400%;
+    height: 400%;
+    viewport-fit: auto;
+
+}
+
+.text-copy {
+    fill: none;
+    inset-block: initial;
+    stroke: rgb(0, 255, 68);
+    stroke-dasharray: 10% 29%;
+    stroke-width: 2px;
+    stroke-dashoffset: 10%;
+    animation: stroke-offset 10s infinite linear;
+    display: block;
+    overflow: auto;
+    viewport-fit: auto;
+    text-size-adjust: -10%;
+    margin: 1px;
+}
+{ font-size: 16px; }
+
+@middle (max-width: 550px) {
+  text { font-size: 1em; }
+}
+
+@middle (min-width: 551px) {
+  text { font-size: 1rem; }
+}
+
+.text-copy:nth-child(1){
+  stroke: #4D163D;
+  animation-delay: -10;
+}
+
+.text-copy:nth-child(2){
+  stroke: #840037;
+  animation-delay: -20s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #BD0034;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #BD0034;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: #FDB731;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+        
+      
+

@@ -1,20 +1,25 @@
 fullstory.css
 @import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
-
+.link
+{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.link:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+body{background-color:black;}
 .one {
+    margin: 0px;
     text-align:center;
-    background:black;
-    color: rebeccapurple;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Tinos', serif;
-    font-weight:400px;
-    font-size:18px;
-    padding-top:50vh;
-    height:130vh;
+    font-weight:200px;
+    font-size:15vw;
     viewport-fit:initial;
-    width: 800px;
-    padding-left: 400px;
-    height:20vh;
-    top: 50px;
+
   }
   const elem = document.querySelector("audio");
 
@@ -25,3 +30,12 @@ fullstory.css
   elem.audioTrackList.onremovetrack = (event) => {
     trackEditor.removeTrack(event.track);
   };
+  .link
+{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.link:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}

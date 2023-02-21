@@ -1,15 +1,16 @@
 
 @import url(<link rel="preconnect" href='https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 body{ background-color: black;
-    position: 1000px;
+    position: 100px;
     width: 80%;
     height: 20%;
     font-family: 'Tinos', serif;
     font-style: normal;
-    font-weight: 200;
-    font-size: 25px;
-    line-height: 25px;
-    color: #ff0000;
+    font-weight: 200px;
+    font-size: 2vw;
+    line-height: 20px;
+    color: #004a16;
+    margin-top: 10px;
     
     
 }
@@ -21,23 +22,21 @@ body{ background-color: black;
     font-family: 'Tinos', serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 200px;
+    font-size: 25vw;
     line-height: 25px;
-    color: #0e0993;
-    
+    color: #0c5003;
     margin-left: 80px;
-    
 }
 
 #scroll-container {
-  margin-left: 800px;
+ 
     justify-content: center;
     align-items: center;
     align-self:center;
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-    max-width: 20%;
+    max-width: 30vw;
   
   }
   #scroll-text {
@@ -45,7 +44,7 @@ body{ background-color: black;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     transform: translate(100%);
-    color: rgb(68, 0, 47);
+    color: rgb(6, 59, 23);
     -moz-animation: my-animation 65s linear infinite;
     -webkit-animation: my-animation 55s linear infinite;
     animation: my-animation 40s linear infinite;
@@ -115,9 +114,9 @@ translate: translateY(10%);
 .link
 {
     text-decoration: none;
-    color: rgb(174, 0, 255);
+    color: rgb(0, 66, 11);
 }
 .link:hover {
-    color: white;
+  color: rgb(60, 149, 73);
     cursor: pointer;
 }

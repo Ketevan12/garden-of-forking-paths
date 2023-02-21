@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
 body{ background-color: black;
     position: absolute;
-    width: 180%;
-    height: 180%;
+    width: 180vw;
+    height: 180vw;
     font-family: 'Goblin One', cursive;
     font-style: normal;
-    font-weight: 400;
-    font-size: 130px;
-    line-height: 120px;
+    font-weight: 40vw;
+    font-size: 10vw;
+    line-height: 10vw;
     color: #4C894B;
-    flex-direction: row;
-   will-change: contents;
 }
 
 
@@ -19,7 +17,7 @@ body{ background-color: black;
     -webkit-transform: translateX(105%);
     transform: translateX(-100%);
     flex-direction: row;
-    viewport-fit: 50%;
+   
   
   }
   #scroll-text {
@@ -31,7 +29,7 @@ body{ background-color: black;
     animation: my-animation 10s linear infinite;
    flex-direction: row;
    overflow-y: hidden;
-   viewport-fit: 50%;
+  
     
   }
   #one{

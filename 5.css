@@ -1,49 +1,41 @@
 5.css
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
+@import url(<link rel="preconnect" href='https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 * {
   padding: 0;
   margin: 0;
 }
 .title{
-      width: 80%;
-      height: 100%;
-      font-family: 'Tinos', serif;
-      font-style: normal;
-      font-weight: 200;
-      font-size: 200px;
-      line-height: 25px;
-      color: rebeccapurple;
-      margin-left: -650px;
-      margin-top: -430px;
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20vw;
+    line-height: 25px;
+    color: #9000ff;
+    margin-left: -80px;
 
-      
-  }
+}
+
 body {
     text-align:center;
     background:black;
     color: rebeccapurple;
     font-family: 'Tinos', serif;
     font-weight:400px;
-    font-size:18px;
-    padding-top:50vh;
-    height:130vh;
-    viewport-fit:initial;
-    width: 800px;
-    padding-left: 400px;
-    height:20vh;
-    top: 50px;
+
   }
 
 
 h1 {
-  font-family: "Montserrat Medium";
+  font-family: 'Tinos', serif;
   max-width: 40ch;
   text-align: center;
   transform: scale(0.94);
   animation: scale 4s forwards cubic-bezier(0.5, 1, 0.89, 1);
   animation: my-animation 60s linear infinite;
-  margin-top: -260px;
+  font-size:3vw;
+  margin-top:130px ;
+  padding-left: 100px;
 }
 @keyframes scale {
   100% {
@@ -214,6 +206,18 @@ span:nth-child(19) {
   }
 }
 .one{
-font-size: 300px;
-margin-left: 350px;
+margin-left: 300px;
+margin-top: 100px;
+
+font-size:16vw;
+}
+
+.link
+{
+    text-decoration: none;
+    color: rgb(61, 0, 39);
+}
+.link:hover {
+  color: rgb(73, 5, 45);
+    cursor: pointer;
 }

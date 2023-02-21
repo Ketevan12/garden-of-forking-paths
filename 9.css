@@ -5,7 +5,7 @@ body{
   height: 100%;
   font-weight: 100;
   color: #FDB731;
-  font-size: 100px;
+  font-size: 100vw;
   
 }
 
@@ -17,17 +17,18 @@ body{
   font-style: normal;
   font-weight: 200;
   line-height: 25px;
-  font-size: 100%;
   color: rgb(212, 255, 0);
   viewport-fit: auto;  
   font-weight: 10;
   color: #FDB731;
-  font-size: 100px;
+  font-size: 100vw;
+  margin-top: -100px;
+  margin-top: 60pt;
 }
 
 
 svg {
-    font: 5rem 'Tinos';
+    font: 5vw 'Tinos';
     width: 400%;
     height: 400%;
     viewport-fit: auto;
@@ -86,7 +87,17 @@ svg {
     font-size: 200px;
     line-height: 25px;
     color: rgb(105, 58, 28);
-    text-align: left;
+    margin-top: -100px;
     margin-top: 60pt;
+    font-size: 10vw;
  
 }    
+.link
+{
+    text-decoration: none;
+    color: rgb(152, 83, 14);
+}
+.link:hover {
+    color: rgb(255, 128, 0);
+    cursor: pointer;
+}

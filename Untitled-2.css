@@ -1,26 +1,25 @@
 
 @import url(<link rel="preconnect" href='https://fonts.googleapis.com/css2?family=Tinos&display=swap');
-@import url(<link rel="preconnect" href='https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
 body {
   text-align:center;
   background:black;
   color:rgb(255, 0, 0);
   font-family: 'Tinos', serif;
-  font-weight:300;
-  font-size:30px;
-  padding-top:50vh;
+  font: weight 300px;;
+  font-size:3vmax;
+  padding-top: 150px;
   height:100vh;
   viewport-fit:initial;
   -webkit-backface-visibility: hidden;
-  -webkit-perspective: 2000;
+  -webkit-perspective: 2000vw;
   -webkit-transform: translate3d(0,0,0);
-  width: 200px;
+  width: 20vw;
   padding-left: 500px;
   height:10vh;
 }
 
 div {
-    width: 200px;
+  width: 100vw;
   display:inline block;
   white-space:nowrap;
 }
@@ -47,38 +46,39 @@ div:last-of-type span {
   margin-left:-35px;
   animation: slidein 7s infinite;
   width: 10px;
-  width: 100px;
 }
 .first{padding-left: 150px;
     padding-top: 100px;
+    font-size: 2vw;
+
 
 }
 .third{
-    margin-top: -150px;
-    margin-left: 660px;
+   
     text-align:center;
     background:black;
     color:rgb(255, 0, 0);
     font-family: 'Tinos', serif;
     font-weight:300;
-    font-size: 220px;
-    height:15vh;
-    width: 100px;
+ font-size:10vw;
+ margin-left: 250px;
+ margin-top: -100px;
+
+ 
+
 
 }
 .one{
-  
-    position: 20px;
-    width: 80%;
-    height: 20%;
     font-family: 'Tinos', serif;
     font-style: normal;
-    font-weight: 200;
-    font-size: 200px;
+    font-weight: 200px;
     line-height: 25px;
     color: rgb(97, 0, 0);
-    margin-left: -500px;
-    margin-top: -420px;
+    font-size:10vw;
+    text-align: left;
+    margin-left: -450px;
+    margin-top: -70px;
+
 }
 @keyframes showup {
     0% {opacity:0;}
@@ -123,4 +123,12 @@ div:last-of-type span {
   }
 
 
-  
+  .link
+{
+    text-decoration: none;
+    color: rgb(83, 0, 0);
+}
+.link:hover {
+    color: rgb(0, 9, 107);
+    cursor: pointer;
+}

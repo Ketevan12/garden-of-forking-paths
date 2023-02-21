@@ -56,11 +56,21 @@
   .title { 
       font-family: 'Tinos', serif;
       font-style: normal;
-      font-weight: 200;
-      font-size: 200px;
-      line-height: 25px;
+      font-weight: 200px;
+      font-size: 10vw;
       color: rgb(192, 255, 247);
       text-align: left;
-      margin-top: 60pt;
+      margin-top: 5pt;
+      margin-left: 10px;
    
   }    
+
+  .link
+  {
+      text-decoration: none;
+      color: rgb(208, 255, 249);
+  }
+  .link:hover {
+    color: rgb(66, 86, 84);
+      cursor: pointer;
+  }

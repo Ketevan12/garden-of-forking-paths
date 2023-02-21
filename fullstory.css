@@ -1,0 +1,27 @@
+fullstory.css
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+.one {
+    text-align:center;
+    background:black;
+    color: rebeccapurple;
+    font-family: 'Tinos', serif;
+    font-weight:400px;
+    font-size:18px;
+    padding-top:50vh;
+    height:130vh;
+    viewport-fit:initial;
+    width: 800px;
+    padding-left: 400px;
+    height:20vh;
+    top: 50px;
+  }
+  const elem = document.querySelector("audio");
+
+  elem.audioTrackList.onaddtrack = (event) => {
+    trackEditor.addTrack(event.track);
+  };
+  
+  elem.audioTrackList.onremovetrack = (event) => {
+    trackEditor.removeTrack(event.track);
+  };

@@ -1,0 +1,66 @@
+10.css
+
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+
+#scroll-container {
+   color: rgb(219, 255, 254);
+    border-radius: 5px;
+    height: 100px;
+    width:10px;
+    overflow: hidden;
+    text-align: right;
+  }
+  body{background: black;}
+  #scroll-text {
+    height: 100%;
+    margin-left:90%;
+    width: .1cm;
+    text-align: center;
+    color: rgb(208, 255, 249);
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation .5s linear infinite;
+    -webkit-animation: my-animation .5s linear infinite;
+    animation: my-animation .5s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-300%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(200%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
+        
+  .title { 
+      font-family: 'Tinos', serif;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 200px;
+      line-height: 25px;
+      color: rgb(192, 255, 247);
+      text-align: left;
+      margin-top: 60pt;
+   
+  }    

@@ -102,6 +102,28 @@ body{ background-color: black;
     animation: my-animation 20s linear infinite;
 
   }
+
+  #eight{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 30s linear infinite;
+
+  }
+
+  #nine{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: rgb(6, 185, 53);
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 10s linear infinite;
+
+  }
   
   @-webkit-keyframes glow {
     from {
@@ -144,15 +166,15 @@ body{ background-color: black;
 .link
 {
     text-decoration: none;
-    color: rgb(174, 0, 255);
+    color: rgb(89, 0, 109);
 }
 .link:hover {
-    color: white;
+    color: rgb(0, 9, 107);
     cursor: pointer;
 }
 .glow {
   font-size: 80px;
-  color: #fff;
+  color: rgb(247, 0, 255);
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }

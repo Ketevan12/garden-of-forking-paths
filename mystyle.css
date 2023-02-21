@@ -6,28 +6,32 @@ body{ background-color: black;
     font-family: 'Goblin One', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 96px;
+    font-size: 130px;
     line-height: 120px;
     color: #4C894B;
+    flex-direction: row;
+   will-change: contents;
 }
 
 
 #scroll-container {
-   
     -moz-transform: translateX(150%);
     -webkit-transform: translateX(105%);
     transform: translateX(-100%);
+    flex-direction: row;
+    viewport-fit: 50%;
   
   }
   #scroll-text {
     -moz-transform: translateX(150%);
     -webkit-transform: translateX(105%);
-    transform: translateX(150%);
-    transform: translate(-300%);
     color: rgb(6, 185, 53);
     -moz-animation: my-animation 35s linear infinite;
     -webkit-animation: my-animation 45s linear infinite;
     animation: my-animation 10s linear infinite;
+   flex-direction: row;
+   overflow-y: hidden;
+   viewport-fit: 50%;
     
   }
   #one{
@@ -103,27 +107,6 @@ body{ background-color: black;
 
   }
 
-  #eight{
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    color: rgb(6, 185, 53);
-    -moz-animation: my-animation 10s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 30s linear infinite;
-
-  }
-
-  #nine{
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    color: rgb(6, 185, 53);
-    -moz-animation: my-animation 10s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 10s linear infinite;
-
-  }
   
   @-webkit-keyframes glow {
     from {
